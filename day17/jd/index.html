@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>仿京东</title>
+	<meta charset=utf-8>
+	<script type="text/javascript" src="js.js">
+		
+	</script>
+	<style type="text/css">
+		#top{
+			width: 100%;
+			height: 30px;
+			background:#dcdcdc;
+			margin-top: -8px;
+		}
+		#top1{
+			background-color:#dcdcdc;
+			width: 1225px;
+			height: 100%;
+			margin: 0 auto;
+			}
+		#center{
+			width: 100%;
+			height: 140px;
+			background: white;
+			border-bottom: 2px solid red;
+		}
+		#center1{
+			background:white;
+			width: 1225px;
+			height: 100%;
+			margin: 0 auto;
+		}
+		#body1{
+			width: 100%;
+			background-color: #cccccc;
+			height: 8000px;
+		}
+		#body2{
+			width: 1225px;
+			height: 100%;
+			margin: 0 auto;
+		}
+		#a1{
+			border:0px solid white;
+			width: 190px;
+			height: 460px;
+			float: left;
+			position: absolute;		
+		}
+		#b1,#b2,#b3,#b4,#b5,#b6,#b7,#b8,#b9,#b10,#b11,#b12,#b13,#b14,#b15,#b16,#b17,#b18{
+			border:0px solid white ;
+			width: 100%;
+			height: 25px;
+			background-color: #ce0000;
+		}
+		#a1 a{
+			font-size:15px;
+			text-decoration: none;
+			line-height: 18px;
+		}
+		#a2,#a3,#a4,#a5,#a6,#a7,#a8,#a9,#a10,#a11,#a12,#a13,#a14,#a15,#a16,#a17,#a18,#a19,#a20{
+			border: 0px solid white;
+			width: 780px;
+			height: 460px;
+			float: left;
+			display: none;
+			position: absolute;
+			margin-left:193px;
+		}
+		#a2{
+			display:block;
+		}
+		#c1{
+			width: 246px;
+			height: 450px;
+			background: white;
+			float: right;
+		}
+		#font1 a{
+			text-decoration: none;
+			color: #696969;
+			padding: 5px;
+		}
+		#font1 a:hover{
+			color: black;
+
+		}
+		#center1-1{
+			width: 100%;
+			height: 85px;
+		}
+		#center1-2{
+			width: 100%;
+			height:55px;
+		}
+		#input-1{
+	        height:32px;
+	        width:450px;
+	        background:url(../photo/sousuo.png);
+	        margin-top:19px;
+	        float: left
+		}
+		#a1 a{
+			color: black;
+		}
+		#input-2{
+			float:left;
+	        height:38px;
+	        width:80px;
+	        background:#B61D1D;
+	        color:#fff;
+	        font-size:18px;
+	        margin-top: 19px;
+		}
+		#center1-1 img{
+			float: left;
+		}
+		#center1-2-1{
+			width: 190px;
+			height: 55px;
+			background:#8b0000;
+			float: left;
+		}
+		#center1-2-2{
+			width: 1030px;
+			height: 45px;
+			float: left;
+		}
+		#center1-2-2 a{
+			font-size: 24px;
+			padding: 15px;
+			text-decoration: none;
+			color: #696969;
+		}
+		#center1-2-2 a:hover{
+			color: red;
+			font-size: 26px;
+		}
+		#center1-1 a{
+			font-size: 12px;
+
+		}
+		#center2{
+			width: 1225px;
+			height: 16px;
+		}
+		#center1-1 a{
+			text-decoration: none;
+			color: #696969;
+		}
+		#gwc{
+			float:left;
+	        margin-top:14px;
+	        margin-left:105px;
+		}
+		#c1-1{
+			width: 246px;
+			height: 40%;
+		}
+		#c1-2{
+			width: 246px;
+			height: 40%;
+		}
+		#c1-3{
+			width: 246px;
+			height: 20%;
+			margin-top:29px;
+		}
+		#c1-1 a{
+			color: #696969;
+			font-size: 14px;
+			padding: 3px;
+			line-height:30px;
+		}
+		#body3{
+			margin-top:25px;
+	        height:170px;
+	        width:1225px;
+	        float:left;
+		}
+
+	</style>
+</head>
+<body>
+	<div id="top">
+		<div id="top1">	
+		<font size="2" style="margin-top:1px;">
+			发送至：
+			<a href="" style="text-decoration: none;color:black;">重庆</a>&or;
+		</font>
+		<font size="2" style="float:right;" id="font1">
+			<a href="">汪星人...退出</a>
+			<a href="">我的订单</a>
+			<a href="">我的京东&or;</a>
+			<a href="">京东会员</a>
+			<a href="">企业采购</a>
+			<a href="">手机京东&or;</a>
+			<a href="">关注京东&or;</a>
+			<a href="">客户服务&or;</a>
+			<a href="">网站导航&or;</a>			
+		</font>	
+		</div>
+	</div>
+	<div id="center">
+		<div id="center1">
+		<div id="center1-1">
+			<img src="photo/jingdongtu.png">
+			<input type="text" name="" id="input-1">
+			<input type="submit" name="" id="input-2" value="搜索"><br>
+			<div id="gwc">
+			<input type="submit" name="" id="input3" value="我的购物车">
+			</div>
+			<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			<a href="">一元秒杀</a>
+			<a href="">100元券</a>
+			<a href="">1元抢</a>
+			<a href="">睡眠日</a>
+			<a href="">点赞男神</a>
+			<a href="">3.0U盘</a>
+			<a href="">直筒休闲裤</a>
+			<a href="">小米现货</a>
+			<a href="">暇步士</a>
+		</div>
+		<div id="center1-2">
+			<div id="center1-2-1"><center><h2>全部商品分类</h2></center></div>
+			<div id="center1-2-2"><br>&nbsp;&nbsp;&nbsp;&nbsp;
+			<a href="">服装</a>
+			<a href="">美妆</a>
+			<a href="">超市</a>
+			<a href="">全球购</a>
+			<a href="">闪购</a>
+			<a href="">团购</a>
+			<a href="">拍卖</a>
+			<a href="">金融</a>
+			</div>
+		</div>		
+		</div>
+	</div>
+<div id="body1">
+	<div id="body2">
+	    <div id="a1">
+		<div id="b1">
+		<a href="">家用电器</a>
+		</div>
+		<div id="b2">
+		<a href="">手机/运营商/数码</a>
+		</div>
+		<div id="b3">
+		<a href="">电脑/办公</a>
+		</div>
+		<div id="b4">
+		<a href="">家居/家具/家装/厨具</a>
+		</div>
+		<div id="b5">
+		<a href="">男装/女装/童装/内衣</a>
+		</div>
+		<div id="b6">
+		<a href="">美妆/个护清洁/宠物</a>
+		</div>
+		<div id="b7">
+		<a href="">女鞋/箱包/钟表/珠宝</a>
+		</div>
+		<div id="b8">
+		<a href="">男鞋/运动/户外</a>
+		</div>
+		<div id="b9">
+		<a href="">房产/汽车/汽车用品</a>
+		</div>
+		<div id="b10">
+		<a href="">母婴/玩具乐器</a>
+		</div>
+		<div id="b11">
+		<a href="">食品/酒类/生鲜/特产</a>
+		</div>
+		<div id="b12">
+		<a href="">艺术/礼品鲜花/农资绿植</a>
+		</div>
+		<div id="b13">
+		<a href="">医药保健/计生情趣</a>
+		</div>
+		<div id="b14">
+		<a href="">图书/文娱/教育/电子书</a>
+		</div>
+		<div id="b15">
+		<a href="">机票/酒店/旅游/生活</a>
+		</div>
+		<div id="b16">
+		<a href="">理财/众筹/白条/保险</a>
+		</div>
+		<div id="b17">
+		<a href="">安装/维修/清洗/二手</a>
+		</div>
+		<div id="b18">
+		<a href="">工业品</a>
+		</div>
+	    </div>
+	<div id="a2">
+		<img src="photo/1.png" width="780px" height="450px">
+	</div>
+	<div id="a3">
+		<img src="photo/2.png">
+	</div>
+	<div id="a4">
+		<img src="photo/3.png">
+	</div>
+	<div id="a5">
+		<img src="photo/4.png">
+	</div>
+	<div id="a6">
+		<img src="photo/5.png">
+	</div>
+	<div id="a7">
+		<img src="photo/6.png">
+	</div>
+	<div id="a8">
+		<img src="photo/7.png">
+	</div>
+	<div id="a9">
+		<img src="photo/8.png">
+	</div>
+	<div id="a10">
+		<img src="photo/9.png">
+	</div>
+	<div id="a11">
+		<img src="photo/10.png">
+	</div>
+	<div id="a12">
+		<img src="photo/11.png">
+	</div>
+	<div id="a13">
+		<img src="photo/12.png">
+	</div>
+	<div id="a14">
+		<img src="photo/13.png">
+	</div>
+	<div id="a15">
+		<img src="photo/14.png">
+	</div>
+	<div id="a16">
+		<img src="photo/15.png">
+	</div>
+	<div id="a17">
+		<img src="photo/16.png">
+	</div>
+	<div id="a18">
+		<img src="photo/17.png">
+	</div>
+	<div id="a19">
+		<img src="photo/18.png">
+	</div>
+	<div id="a20">
+		<img src="photo/19.png">
+	</div>
+	<div id="c1">
+		<div id="c1-1">
+			<font color="#696969" style="margin-top:3px">京东快报</font>
+			<a href="" style="font-size:12px;float:right;text-decoration:none;color:#696969;">更多</a><br>
+			<a href="">[特惠]iphone新品发布会</a><br>
+			<a href="">[公告]地方特产馆助力初春农产品上行</a><br>
+			<a href="">[特惠]寻找原汁原味北京老字号</a><br>
+			<a href="">[公告]京东生鲜'鲜'享初夏</a><br>
+			<a href="">[特惠]小熊电器10周年1元秒杀</a><br>
+		</div>
+		<div id="c1-2">
+		        <a href="">
+		     	<img src="photo/jingdong1.png">
+		     	</a>
+		</div>
+		<div id="c1-3">
+			<a href="" style="margin-top:15px;">
+				<img src="photo/guanggao1.png">
+			</a>
+		</div>
+	</div>
+		<div id="body3">
+			<a href="">
+				<img src="photo/guanggao2.png">
+		    </a>		
+	    </div>
+	</div>
+
+</div>
+</body>
+</html>
